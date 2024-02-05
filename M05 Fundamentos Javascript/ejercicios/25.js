@@ -2,6 +2,8 @@ function obtenerResto(x, y) {
   // La función recibe dos argumentos "x" e "y" que son números.
   // Obten el resto de la división de "x" entre "y".
   // Tu código:
+  var obtenerResto = x % y;
+  return obtenerResto
 }
 
 module.exports = obtenerResto;
